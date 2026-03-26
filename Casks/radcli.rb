@@ -3,7 +3,7 @@ cask "radcli" do
   name "radcli"
   desc "Reddit Ads from the terminal"
   homepage "https://github.com/lloydhumphreys/radcli"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "radcli" do
   on_macos do
     on_intel do
       url "https://github.com/lloydhumphreys/radcli/releases/download/v#{version}/radcli_#{version}_darwin_amd64.tar.gz"
-      sha256 "c2338aaab3e6cba641d0c7e2a7190c072cca4c7fd569b43c1d1e71aee07dccaa"
+      sha256 "66e459ee793734206c93d0d951af656492f1a16ea1896c000d8956d696cc1717"
     end
     on_arm do
       url "https://github.com/lloydhumphreys/radcli/releases/download/v#{version}/radcli_#{version}_darwin_arm64.tar.gz"
-      sha256 "cc9b692cf0797dab2a076664efc0711534c0cfb5d594eac68b5a88a813a1785d"
+      sha256 "6013127e4bbe4263a5bff6d3d7e6904f0d324573764bfff1e7aea50b8decea53"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lloydhumphreys/radcli/releases/download/v#{version}/radcli_#{version}_linux_amd64.tar.gz"
-      sha256 "10fdcae71c7bae3ef6c7366504b0b6a11879195d074b325b87b81ca8f892b436"
+      sha256 "a63fa455090a380a0cbd56596b2bd9dadb6912d180f5c4f0b7cba5092d8a35c5"
     end
     on_arm do
       url "https://github.com/lloydhumphreys/radcli/releases/download/v#{version}/radcli_#{version}_linux_arm64.tar.gz"
-      sha256 "a5db67e79765a4b8d72e35d22356179afe507b6d01794b4e773267e31218838f"
+      sha256 "8c21ca7c17eeebc8a746c5b9559e5092596e749007635d334b7313c67685a291"
     end
   end
 
